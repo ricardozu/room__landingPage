@@ -1,0 +1,48 @@
+.container{
+    width: 85%;
+    padding: 75px 0;
+}
+
+.main{
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas: 
+    "main main main main cta cta cta"
+    "main main main main cta cta cta"
+    "main main main main cta cta cta"
+    "img1 img1 about about about img2 img2"
+    "img1 img1 about about about img2 img2"
+    
+    ;
+}
+
+.main__controls{
+    grid-area: cta;
+    align-self: flex-end;
+    justify-self: flex-start;
+ }
+
+ .main__hamburger{
+    display: none;
+ }
+
+ .main__logo{
+    margin: 0;
+ }
+
+ .main__links{
+    display: grid;
+    padding: 0;
+    grid-auto-flow: column;
+    gap: 1em;
+    margin-left: 10%;
+ }
+
+ .main__list{
+    list-style: none;
+
+ }
+
+ .main__link{
+    color: var(--white);
+    text-decoration: none;
+ }
