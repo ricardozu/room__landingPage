@@ -49,6 +49,10 @@ body{
     display: none;
 }
 
+.main__picture{
+    margin: 0 auto;
+}
+
 .main__logo{
     margin: 0 auto;
     
